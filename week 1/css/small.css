@@ -34,11 +34,12 @@ picture{
 
 h1 {
     text-align: center;
-    font-size: 2.35em;
+    font-size: 1.5rem;
     font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
 }
 
 h2 {
+    font-size: 1rem;
     margin-bottom: 0;
     padding: 10px;
     font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
