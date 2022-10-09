@@ -2,16 +2,16 @@
     h1 {
         font-size: 2.5rem;
     }
+
     h2 {
         font-size: 1.5;
     }
+
     footer {
-        border-radius: 6px;
-      }
-    header {
         border-radius: 6px;
     }
 
-
+    header {
+        border-radius: 6px;
+    }
 }
-
