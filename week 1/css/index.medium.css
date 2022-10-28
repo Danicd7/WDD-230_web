@@ -1,0 +1,40 @@
+/* ---Tablet View--- */
+
+@media screen and (max-width: 650px) {
+
+    .page-wrapper {
+        margin: 30px;
+    }
+  }
+
+/* ---Phone View--- */
+
+@media screen and (max-width: 450px) {
+
+    body {
+        display: inline-block;
+    }
+
+    header {
+        grid-template-columns: 40% 60%;
+    }
+    header a {
+        margin: auto;
+    }
+    header h1 {
+        text-align: left;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    main .content-title::after {
+        top: 120px;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+  }
