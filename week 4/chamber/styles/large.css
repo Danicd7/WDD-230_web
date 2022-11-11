@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 5px;
+    margin: 0;
+    color:  #000000;
+    line-height: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+  }
+
+nav {
+    /*background-color: #0000009a;*/
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+  }
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+nav a {
+    padding:1em;
+    min-width: 70px;
+    text-decoration: none;
+  }
+nav a:link, nav a:visited {
+    color: #ffffff;
+  }
+nav a:hover {
+    color: #ffffff;
+    background-color: #ffe600af;
+    border-radius: 3px;
+  }
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #0000009a ;
+    padding: 5px 0;
+    color: #fff; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 50px;
+}
+.social-media img {
+    max-width: 50px;
+}
+
+.date {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+} 
+
+
+/* larger viewport*/
+
+/*@media only screen and (max-width: 32.5em) {
+    header img {
+        width: 100%;
+    }
+    header h1{
+        font-size: 3 rem;
+    }
+}*/

@@ -3,8 +3,8 @@
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #ffffff;
-  --secondary-color: #000000;
-  --accent1-color: #ffe600d8;
+  --secondary-color: #0000009a;
+  --accent1-color: #ffe600af;
   --accent2-color: #f37600;
 
   --heading-font: "Roboto Condensed";
@@ -14,13 +14,17 @@
   --headline-color-on-color: #ffffff; 
   --paragraph-color-on-white: black; 
   --paragraph-color-on-color: #ffffff; 
-  --text-background-color: #000000;
+  --text-background-color: #0000009a;
   --nav-link-color: #ffffff;
-  --nav-background-color: #black;
+  --nav-background-color: #0000009a;
   --nav-hover-link-color: #ffffff;
-  --nav-hover-background-color: #ffe500;
+  --nav-hover-background-color: #ffe600af;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   background-color: var(--primary-color);
@@ -30,6 +34,7 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 1em;
+  font-family: var(--heading-font);
 }
 img {
   max-width: 100%;
@@ -39,7 +44,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 header {
-  padding: 1em;
+  font-family: var(--heading-font);
+  padding: 0;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--text-background-color);
